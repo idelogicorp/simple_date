@@ -33,8 +33,15 @@ And then use :
 def self.get_month(time)
   return SimpleDate.month(time)
 end
+# => "Desember"
 ```
-result : Desember
+
+```ruby
+def self.get_indonesian(time)
+  return SimpleDate.indonesia(time)
+end
+# => "25-12-2017"
+```
 
 
 ## Development
