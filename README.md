@@ -31,7 +31,7 @@ And then use :
 
  
 def self.get_month(time)
-  return SimleDate.month(time)
+  return SimpleDate.month(time)
 end
 ```
 result : Desember
