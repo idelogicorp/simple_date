@@ -1,8 +1,7 @@
 # SimpleDate
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/simple_date`. To experiment with that code, run `bin/console` for an interactive prompt.
+Welcome to our new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/simple_date`. To experiment with that code, run `bin/console` for an interactive prompt.
 
-TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
@@ -21,8 +20,22 @@ Or install it yourself as:
     $ gem install simple_date
 
 ## Usage
+Import :
+```ruby
+require 'simple_date'
+```
+And then use :
+```ruby
+# time = Time.strftime("%Y-%m-%d %H:%M:%S")
+=> "2017-12-25 15:00:42"
 
-TODO: Write usage instructions here
+ 
+def self.get_month(time)
+  return SimleDate.month(time)
+end
+```
+result : Desember
+
 
 ## Development
 
@@ -32,7 +45,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/simple_date. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at [https://github.com/idelogicorp/simple_date](https://github.com/idelogicorp/simple_date). This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
@@ -40,4 +53,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the SimpleDate project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/simple_date/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the SimpleDate project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/idelogicorp/simple_date/CODE_OF_CONDUCT.md).
