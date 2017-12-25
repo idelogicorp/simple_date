@@ -27,7 +27,7 @@ require 'simple_date'
 And then use :
 ```ruby
 # time = Time.strftime("%Y-%m-%d %H:%M:%S")
-=> "2017-12-25 15:00:42"
+# => "2017-12-25 15:00:42"
 
  
 def self.get_month(time)
